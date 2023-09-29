@@ -6,12 +6,20 @@
     "dev": "PORT=3800 next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "git_user": "git config user.name 'Rodrigo Zan'",
+    "git_email": "git config user.email 'rodzandonadi@gmail.com'",
+    "git_add": "git add .",
+    "git_commit": "git commit -m 'Refactory in Cards and List components for add MongoDB models'",
+    "git_remote": "git remote add origin https://github.com/rodrigozan/zantrello.git",
+    "git_set_url":"git remote set-url origin https://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@github.com/rodrigozan/zantrello.git",
+    "git_push": "yarn git_add && yarn git_commit && git push origin master"
   },
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^7.5.3",
     "next": "latest",
+    "prop-types": "^15.8.1",
     "react": "latest",
     "react-dom": "latest"
   },
